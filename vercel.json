@@ -13,5 +13,13 @@
             "src": "/(.*)",
             "dest": "/public/index.php"
         }
-    ]
+    ],
+    "functions": {
+        "api/**/*": {
+            "runtime": {
+                "name": "php",
+                "version": "8.0"
+            }
+        }
+    }
 }
